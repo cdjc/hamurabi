@@ -135,7 +135,7 @@ def main():
     goto .line440
     # *** ENOUGH PEOPLE TO TEND THE CROPS?
     label .line455
-    if D<10*P:
+    if D<=10*P:
         goto .line510
     print("BUT YOU HAVE ONLY", P, "PEOPLE TO TEND THE FIELDS!  NOW THEN,")
     goto .line440
