@@ -5,12 +5,11 @@ HAMURABI.BAS, Creative Computing's port to a more modern
 BASIC of Peter Turnbull's port to 8K Microsoft BASIC of
 David Ahl's port to "EDUSYSTEM 70" (whatever that is) of
 Doug Dyment's FOCAL (whatever that is) program *The Sumer
-Game.* I tried to mirror the CC BASIC version as much as
-Python 3 allows.
+Game.*
 
-In particular I got a Python 3 `goto` module from GitHub,
-but it doesn't seem to be working right yet. I've filed an
-issue. You'll need (a fixed version of) it as well:
+I tried to mirror the CC BASIC version as much as Python 3
+allows.  In particular, I used a Python 3 `goto` module from
+GitHub.  You'll need it as well:
 <http://github.com/cdjc/goto>. Just put `goto.py` someplace
 where Python can find it.
 
