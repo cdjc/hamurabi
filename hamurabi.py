@@ -23,15 +23,13 @@ def main():
     def sub710():
         print("HAMURABI:  THINK AGAIN.  YOU HAVE ONLY")
         print(S, "BUSHELS OF GRAIN.  NOW THEN,")
-        return
 
     def sub720():
         print("HAMURABI:  THINK AGAIN.  YOU OWN ONLY", A, "ACRES.  NOW THEN,")
-        return
 
     def sub800():
+        nonlocal C
         C=int(random()*5)+1
-        return
 
     print(31*' ', "HAMURABI")
     print(14*' ', "CREATIVE COMPUTING  MORRISTOWN, NEW JERSEY")
