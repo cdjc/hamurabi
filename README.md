@@ -1,5 +1,10 @@
 # HAMURABI.BAS In Python 3
 
+**Status: The Python GOTO module I'm using is currently
+broken. It looks like it will be fixed shortly. In the
+meantime, this code is broken. I looked at ways around it
+and decided it was too much work to be worth it.**
+
 This code is my very direct port to Python 3 of the famous
 HAMURABI.BAS, Creative Computing's port to a more modern
 BASIC of Peter Turnbull's port to 8K Microsoft BASIC of
