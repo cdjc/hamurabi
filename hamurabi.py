@@ -214,7 +214,7 @@ def main():
     goto .line990
     label .line960
     print("YOUR PERFORMANCE COULD HAVE BEEN SOMEWHAT BETTER, BUT")
-    print("REALLY WASN'T TOO BAD AT ALL. ", INT(P*.8*random()), "PEOPLE")
+    print("REALLY WASN'T TOO BAD AT ALL. ", int(P*.8*random()), "PEOPLE")
     print("WOULD DEARLY LIKE TO SEE YOU ASSASSINATED BUT WE ALL HAVE OUR")
     print("TRIVIAL PROBLEMS.")
     label .line990
